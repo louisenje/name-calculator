@@ -30,10 +30,47 @@
                 <li>Friday: Afua</li>
                 <li>Saturday: Ama</li>
                 </ul>
-     <script src="js/scripts.js"></script>
-        <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday">
-        <input type="submit">
-      </form>
+    
+       
+        <script src="js/scripts.js"></script>
+        <h2>Details:</h2>
+        <form onsubmit="myFunction()">
+          
+              <label for="radio" class="radio-inline">
+                <input type="radio" name="gender" value="male"id="male" required/>Male
+              </label> 
+              <label for="radio" class="radio-inline">
+                <input type="radio" name="gender" value="male"id="female" required>Female
+              </label>
+              <div class="form-group">
+                <h4>Year you are Born:</h4>
+                <label for="year">
+                  <input type="text" id="year" placeholder="Eg 2020"
+                  min="1700"
+                  max="2020"
+                  required>
+                </label>
+                <div class="form-group">
+                  <h4>Month you were Born:</h4>
+                  <label for="month">
+                    <input type="text" id="month" placeholder="1-12"
+                    min="0"
+                    max="12"
+                    required>
+                  </label>
+                  <div class="form-group">
+                    <h4> The Date you were Born:</h4>
+                    <label for="day">
+                      <input type="text" id="day" placeholder="1-31"
+                      min="0"
+                      max="31"
+                      required>
+                    </label>
+                </div>
+                    <button type="submit"onclick= "getName()"
+                     onsubmit="event.preventDefault()"
+                     class="button">SUBMIT DETAILS</button>
+                </div>
+            </div>
     </body>
 </html>
