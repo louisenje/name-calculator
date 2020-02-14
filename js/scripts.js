@@ -16,7 +16,7 @@ function getName(){
     var female=document.getElementById("male")
 //validation
 if (day<=0||day>31)
-alert("pleas enter the correct day");
+alert(pleas enter the correct day");
 else if(month<0||month>12||month==2 && day>29)
 alert ("[Please enter the correct month");
 var day= new Date(year + "/" + month+ "/" + day);
