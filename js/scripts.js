@@ -23,7 +23,7 @@ function getName(){
 
     var validate = (year > o && (month >0 && month<=12) && (day > 0 && day <=31))
 
-    var validateGender = (ge)
+    var validateGender = (gender !== "male" && gender !== "female")
 
 //validation
 if (day<=0||day>31)
@@ -38,5 +38,13 @@ if (male.checked==true){
 else if(female.checked==true){
     alert( "You were born on"+ daysOfWeek[birthDay] +"and your akan name is" + femaleNames[birthDay])
 }
+}
+function getGender(){
+    var gender = document.getElementsByName("gender");
+    for (i = 0; i < gender.length; i++){
+        if (gender[i].checked){
+            return(gender[i].value)
+        }
+    }
 }
  
