@@ -19,6 +19,11 @@ function getName(){
     
     var female= document.getElementById("female")
     
+    var gender= getGender()
+
+    var validate = (year > o && (month >0 && month<=12) && (day > 0 && day <=31))
+
+    var validateGender = (ge)
 
 //validation
 if (day<=0||day>31)
@@ -34,3 +39,4 @@ else if(female.checked==true){
     alert( "You were born on"+ daysOfWeek[birthDay] +"and your akan name is" + femaleNames[birthDay])
 }
 }
+ 
