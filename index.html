@@ -9,9 +9,9 @@
         <div class="container">
           <div class= "jumbotron"> 
             <strong><h1> Akan Name Calculator</h1> </strong>  
-            <img src="images/4.jpg" alt="profile">
             <img src="images/1.jpg" alt="profile">
-            <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. </p>
+            
+           <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. </p>
            <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
           <div  class="row">
             <div class="col-md-6">
@@ -21,7 +21,7 @@
                 <li>Monday: Kwadwo</li>
                 <li>Tuesday: Kwabena</li>
                 <li>Wednesday: Kwaku</li>
-               <li> Thursday:  Yaw</li>
+                <li> Thursday: Yaw</li>
                 <li>Friday: Kofi</li>
                 <li>Saturday: Kwame</li>
                 </ul>
@@ -34,7 +34,7 @@
                   <li>Monday: Adwoa</li>
                   <li>Tuesday: Abenaa</li>
                   <li>Wednesday: Akua</li>
-                 <li> Thursday:  Yaa</li>
+                  <li> Thursday: Yaa</li>
                   <li>Friday: Afua</li>
                   <li>Saturday: Ama</li>
                   </ul>
@@ -46,7 +46,8 @@
   <script src="js/scripts.js"></script>
 	    	<div class="container">
 	      	<div class="jumbotron">
-	        	<h2>Details:
+            <h2>Details 
+              <img src="images/4.jpg" alt="profile">
               <form onsubmit="myFunction()">
           
               <label for="radio" class="radio-inline">
@@ -54,9 +55,11 @@
               </label> 
               <label for="radio" class="radio-inline">
                 <input type="radio" name="gender" value="male"id="female" required>Female
-              </label></h2>
+              </label>
+            </h2>
+          
               <div class="form-group">
-                <h4>Year you are Born:
+                <h4> The Year you were Born:
                 <label for="year">
                   <input type="text" id="year" placeholder="Eg 2020"
                   min="1700"
@@ -64,7 +67,7 @@
                   required>
                 </label></h4>
                 <div class="form-group">
-                  <h4>Month you were Born:
+                  <h4> The Month you were Born:
                   <label for="month">
                     <input type="text" id="month" placeholder="1-12"
                     min="0"

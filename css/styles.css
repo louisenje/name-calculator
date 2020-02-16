@@ -1,9 +1,31 @@
 h1{
     color:#330011;
     text-align: center;
+    text-shadow: aqua;
+    font-size: 50px;
 }
 h4{
     color:#330011;
     
 }
-
+ul{
+    color:#330011;
+    font-style: italic;
+    font-size: 15px;
+}
+p{
+    color:#330011;
+    font-size: 20px;
+}
+h2{
+    color:#330011;
+    font-weight:35px;
+    text-align: center;
+}
+img{
+    float: right;
+}
+h4{
+    font-size:30px;
+    
+}
