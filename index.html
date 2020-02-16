@@ -33,7 +33,9 @@
     
        
         <script src="js/scripts.js"></script>
-        <h2>Details:</h2>
+		<div class="container">
+		<div class="jumbostorng">
+		<h2>Details:
         <form onsubmit="myFunction()">
           
               <label for="radio" class="radio-inline">
@@ -41,36 +43,39 @@
               </label> 
               <label for="radio" class="radio-inline">
                 <input type="radio" name="gender" value="male"id="female" required>Female
-              </label>
+              </label></h2>
               <div class="form-group">
-                <h4>Year you are Born:</h4>
+                <h4>Year you are Born:
                 <label for="year">
                   <input type="text" id="year" placeholder="Eg 2020"
                   min="1700"
                   max="2020"
                   required>
-                </label>
+                </label></h4>
                 <div class="form-group">
-                  <h4>Month you were Born:</h4>
+                  <h4>Month you were Born:
                   <label for="month">
                     <input type="text" id="month" placeholder="1-12"
                     min="0"
                     max="12"
                     required>
-                  </label>
+                  </label></h4>
                   <div class="form-group">
-                    <h4> The Date you were Born:</h4>
+                    <h4> The Date you were Born:
                     <label for="day">
                       <input type="text" id="day" placeholder="1-31"
                       min="0"
                       max="31"
                       required>
                     </label>
-                </div>
+                </div></h4>
                     <button type="submit"onclick= "getName()"
                      onsubmit="event.preventDefault()"
                      class="button">SUBMIT DETAILS</button>
                 </div>
             </div>
+		</div>
+		</div
+        
     </body>
 </html>
