@@ -3,6 +3,7 @@ h1{
     text-align: center;
     text-shadow: aqua;
     font-size: 50px;
+    font-weight: 800;
 }
 h4{
     color:#330011;
@@ -12,15 +13,18 @@ ul{
     color:#330011;
     font-style: italic;
     font-size: 15px;
+    font-weight: 700;
 }
 p{
     color:#330011;
     font-size: 20px;
+    font-weight: 700;
 }
 h2{
     color:#330011;
     font-weight:35px;
     text-align: center;
+    font-weight: 700;
 }
 img{
     float: right;
