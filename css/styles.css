@@ -36,3 +36,8 @@ h4{
 .jumbotron{
     background-color:#c68c53;
 }
+.button{
+    color: #c68c53;
+    font-weight: 800;
+    font-size: 20px;
+}
