@@ -10,9 +10,6 @@ This is a web application that takes a user's birthday and calculates the day of
 * create a repository on git and copy the link in git
 * clone the file on git using "git clone *link* "
 
-
-## Known Bugs
-The application still computes your name despite of not giving your year of birth. It still alerts undifined date and akan Name despite ofwrong february dates. the inner.html outputing from th js to index.html refreshes together with the page
 ## Technologies Used
 languages used are HTML CSS and JavaScript. You can use a text editor like visual studio code or atom.
 ## Support and contact details
