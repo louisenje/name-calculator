@@ -21,16 +21,19 @@ function getName(){
 
 //validation
 if (day<=0||day>31)
-alert("please enter the correct date");
+      alert("please enter the correct date");
 else if(month<0||month>12||month==2 && day>29)
-alert ("Please enter the correct month");
+     alert ("Please enter the correct month");
+
 var day= new Date(year + "/" + month+ "/" + day);
+
 var birthDay=day.getDay();
+
 if (male.checked==true){
-    alert( "You were born on" +daysOfWeek[birthDay]+ "and your akan name is"+ maleNames[birthDay])
-}
+     alert( "You were born on" +daysOfWeek[birthDay]+ "and your akan name is"+ maleNames[birthDay])
+ }
 else if(female.checked==true){
-    alert( "You were born on"+ daysOfWeek[birthDay] +"and your akan name is" + femaleNames[birthDay])
+     alert( "You were born on"+ daysOfWeek[birthDay] +"and your akan name is" + femaleNames[birthDay])
  }
 }
 
